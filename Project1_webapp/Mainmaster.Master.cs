@@ -21,5 +21,10 @@ namespace Project1_webapp
         {
             Response.Redirect("Regipage.aspx");
         }
+
+        protected void LinkButton4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Final_page.aspx");
+        }
     }
 }
