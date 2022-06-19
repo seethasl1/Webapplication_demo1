@@ -112,6 +112,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Display_data_disconn.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Final_page.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -181,6 +182,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Display_data_disconn.aspx.cs">
+      <DependentUpon>Display_data_disconn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Display_data_disconn.aspx.designer.cs">
+      <DependentUpon>Display_data_disconn.aspx</DependentUpon>
     </Compile>
     <Compile Include="Final_page.aspx.cs">
       <DependentUpon>Final_page.aspx</DependentUpon>
